@@ -1,5 +1,7 @@
 # simple-loan-application
 
+	## REST API information:
+
 1) Get mapping - Get Payment Plans for Loan if already exist, else genereta Payment Plan and return 
 
 	http://localhost:8080/loans/paymentPlans?loanAmount=25000&interestRate=5&loanTerm=5&months=60
