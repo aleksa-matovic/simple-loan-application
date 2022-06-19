@@ -1,4 +1,4 @@
-package com.leanpay.simpleloanapp;
+package com.leanpay.simpleloan;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -42,7 +42,7 @@ class SimpleLoanAppApplicationTests {
 	public void testMonthlyPayment() {
 		double monthlyPayment1 = loanController.monthlyPayment(200000l, 6, 15, 0);
 		double monthlyPayment2 = loanController.monthlyPayment(300000l, 6, 15, 0);
-		double monthlyPayment3 = loanController.monthlyPayment(300000l, 7, 15, 0);
+		double monthlyPayment3 = loanController.monthlyPayment(300000l, 7, 0, 180);
 		double monthlyPayment4 = loanController.monthlyPayment(150000l, 7, 15, 0);
 
 		assertEquals(1,687.71, monthlyPayment1);
