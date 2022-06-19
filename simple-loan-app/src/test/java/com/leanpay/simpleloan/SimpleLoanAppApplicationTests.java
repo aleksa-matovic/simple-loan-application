@@ -35,7 +35,7 @@ class SimpleLoanAppApplicationTests {
 		
 		loanservice.saveLoan(loan);
 		assertNotNull(loanservice.findLoan(30000l, new BigDecimal(5), 7l, null));
-	}
+	} 
 	
 	
 	@Test
