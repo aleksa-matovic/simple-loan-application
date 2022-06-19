@@ -1,6 +1,6 @@
 # simple-loan-application
 
-	## REST API information:
+	REST API information:
 
 1) Get mapping - Get Payment Plans for Loan if already exist, else genereta Payment Plan and return 
 
