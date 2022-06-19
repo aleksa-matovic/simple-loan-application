@@ -30,7 +30,7 @@ class SimpleLoanAppApplicationTests {
 		loan.setInterestRate(new BigDecimal(5));
 		loan.setLoanAmount(30000l);
 		loan.setLoanTerm(7l);
-		loan.setMonths(null);
+		loan.setMonths(null); 
 		loan.setCreatedAt(LocalDateTime.now());
 		
 		loanservice.saveLoan(loan);
